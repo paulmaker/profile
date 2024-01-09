@@ -11,7 +11,7 @@ export default function AuthorAvatar(props: Author) {
           src={
             picture?.asset?._ref
               ? urlForImage(picture).height(96).width(96).fit('crop').url()
-              : 'https://source.unsplash.com/96x96/?face'
+              : 'https://source.unsplash.com/96x96/?faces'
           }
           className="rounded-full"
           height={96}
